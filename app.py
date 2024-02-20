@@ -9,7 +9,7 @@ with open('model.pickle', 'rb') as f:
   modelo = pickle.load(f)
 
 educ = st.slider("Seleccione educación", 0, 20)
-exper = st.slider('Seleccione experiencia", 0, 50)
+exper = st.slider("Seleccione experiencia", 0, 50)
 
 vec = np.array([[1, educ, exper]])
 
